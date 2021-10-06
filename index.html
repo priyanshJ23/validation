@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IEEE TASK-1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <center>
+
+ <form>
+ <table >
+   <h1>IEEE TASK-1</h1>
+   <h2>Registration Form</h2>
+ <tr>
+ <td>Name:</td><td><input name="name" id="name" type="text" maxlength="50" required></td>
+ </tr>
+ <tr>
+ <td>Register Number:</td><td><input id="regno" type="text" required></td>
+ </tr>
+ <tr>
+   <td> Enter your branch </td> <td>   <select name="branch" id="branch" required>
+    <option value="branch">CSE</option>
+    <option value="branch">ECE</option>
+    <option value="branch">EEE</option>
+    <option value="branch">IT</option>
+    <option value="branch">CE</option>
+  </select></td>
+ </tr>
+ <tr>
+ <td>Date of Birth:</td><td><input id="dateop" placeholder= "dd/mm/yyyy" type="text" required></td>
+ </tr>
+
+ <tr>
+ <td>E-Mail ID:</td><td><input id="email" type="text" required></td>
+ </tr>
+ <tr>
+ <td>Temporary Address:</td><td><input id="tempadd" type="text" ></td>
+ </tr>
+ <tr>
+ <td>Permanent Address:</td><td><input id="permadd" type="text"></td>
+ <td><input id="check" type="checkbox" onclick="disable();">Permanent address is same as Temporary address</td>
+ </tr>
+ <tr>
+ <td> Mobile Number:</td><td><input id="phoneno" type="text" maxlength="10"></td>
+ </tr>
+ <tr>
+   <td>Password:</td> <td>  <input type="text" name="pass"
+               id="passon" /> </td>
+ </tr>
+ <tr><td colspan="2"><input type="submit" class="btn" onclick="validateform();"></td></tr>
+ </table>
+ </form>
+ </center>
+      <script src="index.js" charset="utf-8"></script>
+   </body>
+</html>

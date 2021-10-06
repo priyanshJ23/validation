@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration-color: #002939;
+
+}
+
+table{
+  cellpadding:2;
+  width:80%;
+   background-color:#e4cfa9;
+  align:center;
+  cellspacing:2 ;
+  height: 620px;
+
+}
+td{
+
+  text-align: center;
+}
+input
+{
+
+  width: 300px;
+  height: 30px;
+}
+select
+{
+  width: 300px;
+  height: 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 20px 40px 30px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e024ca;
+  background-image: -webkit-linear-gradient(top, #e024ca, #3a6e91);
+  background-image: -moz-linear-gradient(top, #e024ca, #3a6e91);
+  background-image: -ms-linear-gradient(top, #e024ca, #3a6e91);
+  background-image: -o-linear-gradient(top, #e024ca, #3a6e91);
+  background-image: linear-gradient(to bottom, #e024ca, #3a6e91);
+  text-decoration: none;
+}
